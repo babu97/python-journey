@@ -1,3 +1,4 @@
+## this uses try statements
 import os
 os.chdir('/home/babu97/HeadFirstpython/chapter3')
 
