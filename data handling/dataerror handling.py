@@ -32,7 +32,7 @@ try:
     man_file.close()
     other_file.close()
 except IOError:
-    print('File error.')
+    print('File error1.')
 
 
 

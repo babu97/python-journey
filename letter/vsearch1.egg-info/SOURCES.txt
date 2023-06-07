@@ -1,0 +1,5 @@
+setup.py
+vsearch1.egg-info/PKG-INFO
+vsearch1.egg-info/SOURCES.txt
+vsearch1.egg-info/dependency_links.txt
+vsearch1.egg-info/top_level.txt
