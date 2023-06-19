@@ -1,6 +1,22 @@
-def shirt( wordings, name='Large'):
-    return f"My shirt {name} has the following words printed: {wordings}"
+def print_models(unprinted_designs, completed_models):
 
-l = shirt('My name is Kipkulei Babu, and I want to tell you how much I love you so much')
-print(l)
+    while unprinted_designs:
+        current_design = unprinted_designs.pop()
+        print(f"Printing Model: {current_design}")
+        completed_models.append(current_design)
+
+def show_completed_models(completed_models):
+    for completed_model in completed_models:
+        print (completed_model)
+unprinted_designs = ['phone case', 'robot pendant', 'dohecahedron']
+completed_models = []
+
+
+print_models(unprinted_designs, completed_models)
+
+show_completed_models(completed_models)
+
+
+
+
 
