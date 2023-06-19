@@ -1,22 +1,24 @@
-def get_formatted_name(first_name, last_name, middle_name = ''):
-    """Return a full name, neatly formatted"""
+def show_message(messages):
+    for message  in messages:
+        print (message)
 
 
-    full_name = (f"{first_name}  {last_name}")
 
-    return full_name.title()
-while True:
-    print("\nPlease tell me your name:")
-    print("(enter 'q)' at any time to quit")
-if
-    f_name = input("first_name: ")
-    if f_name == "q":
-       break
+def send_message(messages, sent_messages):
+  while messages:
+    current_message  =messages.pop()
+    print(f"Moving {current_message}")
+    sent_messages.append(current_message)
 
-    l_name = input("last_name: ")
+messages  = ['Babu', 'Laban', 'Kaimogul', 'Allan', 'Maureen']
+sent_messages = []
 
-    if f_name == 'q':
-        break
-    formatted_name =get_formatted_name(f_name, l_name)
-    print(f"\nHello, {formatted_name}")
+
+
+show_message(messages)
+
+send_message(messages, sent_messages)
+
+
+
 
