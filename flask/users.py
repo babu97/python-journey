@@ -23,7 +23,16 @@ class User:
         self.login_attempts+=1
     def reset_login_attempts(self):
         self.login_attempts = 0
+class Admin(User):
+  def __init__(self, first_name, last_name, age, location, occupation, login_attempts) -> None:
+      super().__init__(first_name, last_name, age, location, occupation, login_attempts)
 
+      self.privileges = []
+  def show_privileges(self):
+      
+      for privilege in self.privileges:
+          print(privilege)
+          
 
 
 
