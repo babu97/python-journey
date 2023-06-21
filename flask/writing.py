@@ -13,9 +13,9 @@ def count_word(filename):
 
        print(f"The file {filename} has about {num_words} words.")
 
-filename = 'guest.txt'
-
-count_word(filename)
+filenames = ['ben.txt', 'babu.txt', 'alice.txt', 'babuu.txt']
+for  filename in filenames:
+  count_word(filename)
        
        
 
